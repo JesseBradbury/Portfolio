@@ -19,8 +19,12 @@ section {
 section h2 {
     font-family: impact;
     min-width: 25%;
-   
+    text-align: end;
+    padding: 5px;
+    border-right-style: solid;
 }
+
+
 
 /* Hero Image */
 /* <a href="https://www.freepik.com/free-photo/panoramic-shot-from-drone-nature-moldova-during-sunset_11175499.htm#query=forest%20birds%20eye%20view&position=4&from_view=search&track=ais">Image by frimufilms</a> on Freepik */
@@ -43,6 +47,10 @@ header {
 
     section {
         flex-direction: column;
+    }
+
+    section h2 {
+        text-align: center;
     }
 
     /* main {
