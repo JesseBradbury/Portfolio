@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+}
+
+section h2 {
+    font-family: impact;
+    min-width: 25%;
+   
+}
+
+/* Hero Image */
+/* <a href="https://www.freepik.com/free-photo/panoramic-shot-from-drone-nature-moldova-during-sunset_11175499.htm#query=forest%20birds%20eye%20view&position=4&from_view=search&track=ais">Image by frimufilms</a> on Freepik */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+    color: #fff;
+}
+
+/* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
+  For media query and nav layout */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    /* main {
+      max-width: 1200px;
+    } */
+}
