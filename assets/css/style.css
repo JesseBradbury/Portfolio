@@ -1,3 +1,8 @@
+:root {
+    --lightgreen: #4a954a9c;
+
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,20 +15,32 @@ nav ul {
     justify-content: space-between;
     min-width: 300px;
     list-style-type: none;
+    font-family: sans-serif;
+    
+    
 }
+
+a:link, a:visited {
+        text-decoration: none;
+        color: var(--lightgreen);
+      }
 
 section {
     display: flex;
 }
 
 section h2 {
-    font-family: impact;
+    font-family: sans-serif;
+    font-weight: 400;
     min-width: 25%;
     text-align: end;
     padding: 5px;
     border-right-style: solid;
 }
 
+section p {
+    padding-left: 10px;
+}
 
 
 /* Hero Image */
