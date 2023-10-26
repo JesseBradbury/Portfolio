@@ -66,9 +66,7 @@ a:visited {
 #contact-me {
     display: flex;
 }
-/* section {
-    display: flex;
-} */
+
 
 section h2 {
     font-family: sans-serif;
@@ -76,17 +74,39 @@ section h2 {
     min-width: 25%;
     text-align: end;
     padding: 5px;
-
+    border-right: 2px solid var(--gray);
 }
 
 section p {
     padding-left: 10px;
-    border-left: 2px solid var(--gray)
+    /* border-left: 2px solid var(--gray) */
 }
 
+.library {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+}
 
+.feature-card img{
+width: 100%;
+/* padding-left: 10px; */
+border: 2px solid var(--gray);
+margin: 10px;
+}
 
+.card {
+display: flex;
+flex: wrap;
+flex-direction: row;
+}
 
+.card img{
+/* display: block; */
+border: 2px solid var(--gray);
+margin: 10px;
+width: 50%;
+}
 
 /* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
   For media query and nav layout */
