@@ -86,26 +86,36 @@ section p {
     display: flex;
     flex: wrap;
     flex-direction: column;
+    margin: 20px;
 }
 
 .feature-card img{
 width: 100%;
 /* padding-left: 10px; */
 border: 2px solid var(--gray);
-margin: 10px;
+/* margin: 10px; */
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 .card {
-display: flex;
-flex: wrap;
-flex-direction: row;
+/* display: flex;
+flex-wrap: wrap; */
+width: 48%;
+
+/* flex-direction: row; */
 }
 
 .card img{
 /* display: block; */
 border: 2px solid var(--gray);
-margin: 10px;
-width: 50%;
+/* margin: 10px; */
+width: 100%;
 }
 
 /* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
