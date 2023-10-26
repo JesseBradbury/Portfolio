@@ -1,5 +1,6 @@
 :root {
     --lightgreen: #4a954a9c;
+    --gray: #3c3b3b;
 
 }
 
@@ -8,22 +9,63 @@ body {
     flex-direction: column;
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--gray)
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 550;
+    background-color: var(--lightgreen);
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray);
+    color: var(--gray);
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 300px;
+    min-width: 400px;
     list-style-type: none;
-    font-family: sans-serif;
-    
-    
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 50px;
+    /* This only works in safari? Need to find a way for it to work on chrome */
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 6px;
+
 }
 
-a:link, a:visited {
-        text-decoration: none;
-        color: var(--lightgreen);
-      }
+
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--lightgreen);
+}
+
+/* Hero Image */
+/* <a href="https://www.freepik.com/free-photo/aerial-view-greenery-forest_18993751.htm#query=forest%20birds%20eye%20view&position=16&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik */
+
+.picture {
+    background-image: url(../images/Hero1.jpg);
+    background-size: contain;
+    height: 350px
+}
 
 section {
     display: flex;
@@ -35,25 +77,17 @@ section h2 {
     min-width: 25%;
     text-align: end;
     padding: 5px;
-    border-right-style: solid;
+
 }
 
 section p {
     padding-left: 10px;
+    border-left: 2px solid var(--gray)
 }
 
 
-/* Hero Image */
-/* <a href="https://www.freepik.com/free-photo/panoramic-shot-from-drone-nature-moldova-during-sunset_11175499.htm#query=forest%20birds%20eye%20view&position=4&from_view=search&track=ais">Image by frimufilms</a> on Freepik */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #13293d;
-    color: #fff;
-}
+
 
 /* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
   For media query and nav layout */
