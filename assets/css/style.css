@@ -1,7 +1,6 @@
 :root {
     --lightgreen: #4a954a9c;
     --gray: #3c3b3b;
-
 }
 
 body {
@@ -20,9 +19,6 @@ h1 {
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-
-
 }
 
 header {
@@ -46,11 +42,7 @@ nav ul {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 6px;
-
 }
-
-
-
 
 a:link,
 a:visited {
@@ -67,9 +59,16 @@ a:visited {
     height: 350px
 }
 
-section {
+/* This is content for the main section */
+
+#about-me,
+#work,
+#contact-me {
     display: flex;
 }
+/* section {
+    display: flex;
+} */
 
 section h2 {
     font-family: sans-serif;
