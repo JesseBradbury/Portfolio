@@ -46,7 +46,7 @@ nav ul {
 
 a:link,
 a:visited {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--lightgreen);
 }
 
@@ -54,9 +54,12 @@ a:visited {
 /* <a href="https://www.freepik.com/free-photo/aerial-view-greenery-forest_18993751.htm#query=forest%20birds%20eye%20view&position=16&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik */
 
 .picture {
+    display: flex;
     background-image: url(../images/Hero1.jpg);
     background-size: contain;
-    height: 350px
+    height: 350px;
+    /* this will be for the little caption */
+    /* justify-content: flex-end; */
 }
 
 /* This is content for the main section */
