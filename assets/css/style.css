@@ -1,6 +1,7 @@
 :root {
-    --lightgreen: #4a954a9c;
+    --lightgreen: #4a954aef;
     --gray: #3c3b3b;
+    --lightgray: #6c6c6c;
 }
 
 body {
@@ -8,7 +9,8 @@ body {
     flex-direction: column;
     line-height: 1;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--gray)
+    color: var(--gray);
+    margin: 0;
 }
 
 h1 {
@@ -38,7 +40,6 @@ nav ul {
     font-size: 20px;
     font-weight: 500;
     padding-right: 50px;
-    /* This only works in safari? Need to find a way for it to work on chrome */
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-underline-offset: 6px;
@@ -56,7 +57,7 @@ a:visited {
 .picture {
     display: flex;
     background-image: url(../images/Hero1.jpg);
-    background-size: contain;
+    background-size: cover;
     height: 350px;
     /* this will be for the little caption */
     /* justify-content: flex-end; */
@@ -90,6 +91,16 @@ section p {
     flex: wrap;
     flex-direction: column;
     margin: 20px;
+    position: relative;
+}
+.feature-titlebox {
+    position: absolute;
+    bottom: 380px;
+    left: 15px;
+    background-color: var(--lightgreen);
+    color: var(--gray);
+    height: 75px;
+    width: auto;
 }
 
 .feature-card img{
@@ -97,6 +108,7 @@ width: 100%;
 /* padding-left: 10px; */
 border: 2px solid var(--gray);
 /* margin: 10px; */
+filter: grayscale(.6) blur(1px);
 }
 
 .projects {
@@ -110,8 +122,33 @@ border: 2px solid var(--gray);
 /* display: flex;
 flex-wrap: wrap; */
 width: 48%;
+position: relative;
+display: inline-block;
+margin-bottom: 20px;
+}
 
-/* flex-direction: row; */
+.titlebox {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: var(--lightgreen);
+    color: var(--gray);
+    height: 50%;
+    width: auto;
+    
+}
+
+.project-name {
+font-size: 28px;
+font-weight: 550;
+line-height: 4px;
+margin-top:30px;
+margin-bottom: 10px;
+margin-right: 15px;
+}
+
+.project-language {
+font-size: 16px;
 }
 
 .card img{
@@ -119,7 +156,14 @@ width: 48%;
 border: 2px solid var(--gray);
 /* margin: 10px; */
 width: 100%;
+height: 150px;
+filter: grayscale(.6) blur(1px);
 }
+
+img:hover {
+    filter: none;
+}
+
 
 /* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
   For media query and nav layout */
