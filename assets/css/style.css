@@ -12,7 +12,7 @@ body {
     color: var(--gray);
     margin: 0;
 }
-
+/* Name Styles */
 h1 {
     font-size: 32px;
     font-weight: 550;
@@ -22,7 +22,7 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+/* This is the Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header {
     background-color: var(--gray);
     color: var(--gray);
 }
-
+/* Styles for Links in the header */
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -45,10 +45,9 @@ nav ul {
     text-underline-offset: 6px;
 }
 
-a:link,
+header a:link,
 a:visited {
-    /* text-decoration: none; */
-    color: var(--lightgreen);
+    color: var(--lightgreen) !important;
 }
 
 /* Hero Image */
@@ -59,10 +58,19 @@ a:visited {
     background-image: url(../images/Hero1.jpg);
     background-size: cover;
     height: 350px;
+    position: relative;
     /* this will be for the little caption */
-    /* justify-content: flex-end; */
+    justify-content: flex-end;
 }
-
+.background-titlebox {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: var(--lightgreen);
+    color: var(--gray);
+    height: 75px;
+    width: auto;
+}
 /* This is content for the main section */
 
 #about-me,
@@ -77,13 +85,18 @@ section h2 {
     font-weight: 400;
     min-width: 25%;
     text-align: end;
-    padding: 5px;
+    padding: 10px;
+    padding-right: 20px;;
     border-right: 2px solid var(--gray);
 }
 
 section p {
     padding-left: 10px;
     /* border-left: 2px solid var(--gray) */
+}
+main a:link,
+a:visited {
+    color: var(--gray);
 }
 
 .library {
@@ -164,7 +177,21 @@ img:hover {
     filter: none;
 }
 
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    color: var(--gray);
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 6px;
+}
 
+.contact-links a {
+    color: var(--gray);
+    margin-right: 20px;
+}
 /* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
   For media query and nav layout */
 @media screen and (max-width: 768px) {
