@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     color: var(--gray);
     margin: 0;
 }
@@ -39,7 +39,7 @@ nav ul {
     justify-content: space-between;
     min-width: 400px;
     list-style-type: none;
-    font-family: arial;
+    font-family: Verdana, arial, sans-serif;
     font-size: 20px;
     font-weight: 500;
     padding-right: 50px;
@@ -85,14 +85,13 @@ a:visited {
 }
 
 
-section h2 {
-    font-family: sans-serif;
-    font-weight: 400;
+h2 {
+    font-family: Verdana, arial, sans-serif;
+    font-weight: 700;
     min-width: 25%;
     text-align: end;
     padding: 10px;
     padding-right: 20px;
-    ;
     border-right: 2px solid var(--gray);
 }
 
@@ -129,6 +128,8 @@ a:visited {
     width: auto;
 }
 
+
+
 .feature-card img {
     width: 100%;
     /* padding-left: 10px; */
@@ -159,7 +160,7 @@ flex-wrap: wrap; */
     left: 15px;
     background-color: var(--lightgreen);
     color: var(--gray);
-    height: 50%;
+    height: 75px;
     width: auto;
 
 }
@@ -218,6 +219,8 @@ img:hover {
     h1 {
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
         width: 100%;
         text-align: center;
         padding-left: 0px;
@@ -237,7 +240,20 @@ img:hover {
         margin: 10px;
     }
 
-    /* main {
-      max-width: 1200px;
-    } */
+    .feature-titlebox {
+    
+       top: 115px;
+       left: 15px; 
+    }
+    .feature-card img {
+        height: 200px;
+    }
+    
+    .card {
+        width: 100%;
+    }
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
 }
