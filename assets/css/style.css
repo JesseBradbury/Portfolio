@@ -84,7 +84,7 @@ a:visited {
     display: flex;
 }
 
-
+/* Styles for the h2 elements */
 h2 {
     font-family: Verdana, arial, sans-serif;
     font-weight: 700;
@@ -95,12 +95,14 @@ h2 {
     border-right: 2px solid var(--gray);
 }
 
+/* Paragraph from the about me section */
 section p {
     padding-left: 25px;
     padding-right: 25px;
     /* border-left: 2px solid var(--gray) */
 }
 
+/* Styles for the links in the headding and the cards */
 main a:link,
 a:visited {
     color: var(--gray);
@@ -111,6 +113,8 @@ a:visited {
     color: var(--lightgreen)
 }
 
+/* Styles and flex setup for the card section with photos and links to projects */
+/* NOTE: Worked with fellow classmate Michael Cosand to help him with setting up his project. There may be some code similarities */
 .library {
     display: flex;
     flex: wrap;
@@ -129,13 +133,9 @@ a:visited {
     width: auto;
 }
 
-
-
 .feature-card img {
     width: 100%;
-    /* padding-left: 10px; */
     border: 2px solid var(--gray);
-    /* margin: 10px; */
     filter: grayscale(.6) blur(1px);
 }
 
@@ -147,8 +147,6 @@ a:visited {
 }
 
 .card {
-    /* display: flex;
-flex-wrap: wrap; */
     width: 48%;
     position: relative;
     display: inline-block;
@@ -182,9 +180,7 @@ flex-wrap: wrap; */
 }
 
 .card img {
-    /* display: block; */
     border: 2px solid var(--gray);
-    /* margin: 10px; */
     width: 100%;
     height: 150px;
     filter: grayscale(.6) blur(1px);
@@ -194,6 +190,7 @@ img:hover {
     filter: none;
 }
 
+/* Styles for "Contact Me" section */
 .contact-links {
     display: flex;
     flex-direction: row;
@@ -210,8 +207,7 @@ img:hover {
     margin-right: 20px;
 }
 
-/* Referenced code from /Users/jesse/bootcamp/ASU-VIRT-FSF-PT-10-2023-U-LOLC/02-Advanced-CSS/01-Activities/24-Stu_CSS-Selectors/Unsolved/assets/css/style.css 
-  For media query and nav layout */
+/* Mobile screen size style adjustments. */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -242,19 +238,22 @@ img:hover {
     }
 
     .feature-titlebox {
-    
-       top: 115px;
-       left: 15px; 
+
+        top: 115px;
+        left: 15px;
     }
+
     .feature-card img {
         height: 200px;
     }
-    
+
     .card {
         width: 100%;
     }
+
     .contact-links {
         display: flex;
         flex-direction: column;
         padding-left: 25px;
+    }
 }
