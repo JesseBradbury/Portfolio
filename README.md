@@ -10,7 +10,6 @@ Thanks for checking it out!
 
 ## Screenshot
 ![screenshot of portfolio website](./assets/images/Screenshot1.png)
-Test
 
 
 ## Link
