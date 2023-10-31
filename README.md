@@ -1,53 +1,27 @@
 # Portfolio
-Working portfolio of assignments from the ASU Bootcamp
+Jesse Bradbury professional web development protforlio website.
 
 
-## Acceptance Criteria
+## Description
+I created this website from scratch to showcase and display some of the projects I have completed through the ASU Web Development Bootcamp. 
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+## Screenshot
+![screenshot of asignment header](./assets/images/ReadmeSS1.jpeg)
+![Screenshot of asignment body](./assets/images/ReadmeSS2.jpeg)
 
-### Technical Acceptance Criteria: 40%
+## Link
+[Click here to view my project!](https://jessebradbury.github.io/Marketing-Project/)
 
-* Satisfies all of the above acceptance criteria.
+## Credits
+I worked with my classmate Michael Cosand to figure out the flex boxes and header text. 
 
-### Deployment: 32%
+The 4 placeholder images in my works section were found online and are cited here. 
 
-* Application deployed at live URL.
+PassGen Photo: https://www.makelovelocks.com/archives/a-lot-of-locks-of-love-lock-locks-lovelocks-lovelockbridge/
 
-* Application loads with no errors.
+LED Wall Photo: Image by upklyak - https://www.freepik.com/free-vector/led-video-wall-screen-texture-background-display_9292907.htm#query=led%20wall&position=8&from_view=search&track=ais 
 
-* Application GitHub URL submitted.
+Weather App: A rainy night in Tokyo (by Masashi Wakui) - https://imgur.com/Fz88F7w 
 
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
+Score Board: Photo of Next Level Pinball Museum - Article by Samantha Swindler - https://www.oregonlive.com/living/2023/03/this-oregon-arcade-has-been-named-worlds-best-place-for-pinball.html
