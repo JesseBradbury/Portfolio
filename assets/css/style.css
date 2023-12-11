@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     line-height: 1;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
     color: var(--gray);
     margin: 0;
 }
@@ -16,7 +16,7 @@ body {
 /* Name Styles */
 h1 {
     font-size: 32px;
-    font-weight: 550;
+    font-weight: 700;
     background-color: var(--lightgreen);
     padding-left: 40px;
     padding-right: 10px;
@@ -27,6 +27,7 @@ h1 {
 /* This is the Header */
 header {
     display: flex;
+    padding: 1%;
     justify-content: space-between;
     align-items: center;
     background-color: var(--gray);
@@ -39,7 +40,7 @@ nav ul {
     justify-content: space-between;
     min-width: 400px;
     list-style-type: none;
-    font-family: Verdana, arial, sans-serif;
+    /* font-family: "Lato", Verdana, arial, sans-serif; */
     font-size: 20px;
     font-weight: 500;
     padding-right: 50px;
@@ -60,6 +61,7 @@ nav ul {
     position: relative;
     /* this will be for the little caption */
     justify-content: flex-end;
+    margin-bottom: 1%;
 }
 
 .background-titlebox {
@@ -82,7 +84,7 @@ nav ul {
 
 /* Styles for the h2 elements */
 h2 {
-    font-family: Verdana, arial, sans-serif;
+    /* font-family: Verdana, arial, sans-serif; */
     font-weight: 700;
     min-width: 25%;
     text-align: end;
@@ -187,6 +189,10 @@ img:hover {
 }
 
 /* Styles for "Contact Me" section */
+#contact-me {
+    padding-bottom: 2%;
+}
+
 .contact-links {
     display: flex;
     flex-direction: row;
@@ -207,6 +213,7 @@ img:hover {
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
+        padding-bottom: 2%;
     }
 
     h1 {
@@ -231,6 +238,10 @@ img:hover {
         border-right: none;
         border-bottom: 2px solid var(--gray);
         margin: 10px;
+    }
+
+    section p {
+        padding-bottom: 4%;
     }
 
     .feature-titlebox {
