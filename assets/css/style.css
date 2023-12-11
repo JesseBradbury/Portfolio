@@ -15,7 +15,7 @@ body {
 
 /* Name Styles */
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     background-color: var(--lightgreen);
     padding-left: 40px;
@@ -40,7 +40,6 @@ nav ul {
     justify-content: space-between;
     min-width: 400px;
     list-style-type: none;
-    /* font-family: "Lato", Verdana, arial, sans-serif; */
     font-size: 20px;
     font-weight: 500;
     padding-right: 50px;
@@ -80,12 +79,13 @@ nav ul {
 #work,
 #contact-me {
     display: flex;
+    margin-bottom: 3%;
 }
 
 /* Styles for the h2 elements */
 h2 {
-    /* font-family: Verdana, arial, sans-serif; */
     font-weight: 700;
+    font-size: 24px;
     min-width: 25%;
     text-align: end;
     padding: 10px;
@@ -97,7 +97,8 @@ h2 {
 section p {
     padding-left: 25px;
     padding-right: 25px;
-    /* border-left: 2px solid var(--gray) */
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 /* Styles for the links in the headding and the cards */
@@ -123,7 +124,7 @@ a:visited {
 
 .feature-titlebox {
     position: absolute;
-    bottom: 380px;
+    bottom: 480px;
     left: 15px;
     background-color: var(--lightgreen);
     color: var(--gray);
@@ -180,7 +181,7 @@ a:visited {
 .card img {
     border: 2px solid var(--gray);
     width: 100%;
-    height: 150px;
+    height: 200px;
     filter: grayscale(.6) blur(1px);
 }
 
@@ -189,9 +190,7 @@ img:hover {
 }
 
 /* Styles for "Contact Me" section */
-#contact-me {
-    padding-bottom: 2%;
-}
+
 
 .contact-links {
     display: flex;
@@ -228,6 +227,11 @@ img:hover {
 
     }
 
+    nav ul {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
     section {
         flex-direction: column;
     }
@@ -256,6 +260,10 @@ img:hover {
 
     .card {
         width: 100%;
+    }
+
+    .project-name {
+        margin-bottom: 1%;
     }
 
     .contact-links {
